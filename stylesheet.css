@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Frutiger Black';
+	src: url('frutiger-black.ttf');
+}
+
+
+body {
+	font-family: 'Frutiger Black';
+	font-size: 14px;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+table{
+	border: 1px black dashed;
+	display: none;
+}
+
+td {
+	text-align: center;
+	width: 250px;
+}
+
+h1 {
+	background-color: black;
+	color: white;
+	//text-align: center;
+	font-family: "Frutiger Black";
+	font-size: 25px;
+	text-indent: 50px;
+}
+
+#nextbutton, #prevbutton{
+	display: none;
+}
